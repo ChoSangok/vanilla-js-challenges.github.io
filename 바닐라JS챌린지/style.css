@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+p,
+li,
+h1 {
+  color: rgb(168, 0, 165);
+  font-size: 30px;
+}
+div:first-child {
+  margin-top: 400px;
+}

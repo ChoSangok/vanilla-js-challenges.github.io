@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <button id="logout" class="hidden">LOGOUT</button>
+      <form action="" id="form">
+        <input type="text" id="name" required />
+        <input type="submit" value="LOGIN" id="btn" />
+      </form>
+      <h1 class="hidden"></h1>
+      <p id="clock"></p>
+      <p id="date"></p>
+      <p id="day"></p>
+
+      <form action="" id="todo_form">
+        <input type="text" placeholder="Write a To Do and pres" />
+      </form>
+      <ul id="todolist"></ul>
+    </div>
+    <div id="weather">
+      <p></p>
+      <p></p>
+    </div>
+    <div>
+      <p id="quote"></p>
+      <p id="author"></p>
+    </div>
+    <script src="app.js"></script>
+    <script src="quotes.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
